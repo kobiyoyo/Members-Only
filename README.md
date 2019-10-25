@@ -15,8 +15,8 @@ The project is part of a series of projects to be completed by students of [Micr
 > Clone the repository to your local machine
 
 ```sh
-$ git clone https://github.com/kobiyoyo/Members-Only
-```.git
+$ git clone https://github.com/kobiyoyo/Members-Only.git
+```
 
 > cd into the directory
 
