@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_24_215811) do
+ActiveRecord::Schema.define(version: 2019_10_29_100154) do
+
+# Could not dump table "posts" because of following StandardError
+#   Unknown type 'refernces' for column 'user'
 
   create_table "users", force: :cascade do |t|
     t.string "name"
