@@ -3,7 +3,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   include SessionsHelper
-  attr_writer :current_user
   
   def current_user=(user)
   @current_user = user
