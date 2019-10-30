@@ -1,17 +1,12 @@
-<h1>Sessions#new</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<h1>Sign in</h1>
 
-<%= form_for @session do  |f| %>
+<%= form_for(:session, url: sessions_path) do |f| %>
 
-<p>
-    <%= f.label :email %>
-    <%= f.text_field :email,value: "example@gmail.com" %>
-</p>
-<p>
-    <%= f.label :password %>
-    <%= f.password_field :password %>
-</p>
-<p>
-    <%= f.submit  "Sign in" %>
-</p>
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+
+  <%= f.label :password %>
+  <%= f.password_field :password %>
+
+  <%= f.submit "Sign in", class: "btn btn-large btn-primary" %>
 <% end %>
