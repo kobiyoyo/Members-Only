@@ -1,0 +1,27 @@
+<h1>Sign up</h1>
+
+
+    <%= form_for(@user, url: signup_path) do |f| %>
+      <%= render 'shared/error_messages' %>
+  <p>
+      <%= f.label :name %>
+      <%= f.text_field :name%>
+  </p>
+
+  <p>
+      <%= f.label :email %>
+      <%= f.email_field :email %>
+  </p>
+  <p>
+      <%= f.label :password %>
+      <%= f.password_field :password %>
+  </p>
+  <p>
+      <%= f.label :password_confirmation, " Password Confirmation" %>
+      <%= f.password_field :password_confirmation %>
+  </p>
+  <p>
+      <%= f.submit "Create my account" %>
+  </p>
+    <% end %>
+
