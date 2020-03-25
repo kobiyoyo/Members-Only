@@ -32,11 +32,23 @@ $ rails db:migrate
 $ cd rails c
 ```
 
-## Contributors
 
-* [Adama Chubiyojo Desmond](https://github.com/kobiyoyo)
+## Authors
 
-* [Danilo Zagarcanin ](https://github.com/danilozag1992)
+👤 **Adama Chubiyojo Desmond**
+
+-  [Github](https://github.com/kobiyoyo)
+-  [Twitter](https://twitter.com/_kobiyoyo)
+-  [Linkedin](https://www.linkedin.com/in/chubiyojo-adama/)
+-  [Email](mailto:adamachubi@gmail.com)
+
+👤 **Danilo Zagarcanin**
+
+- [Github](https://github.com/danilozag1992)
+- [Twitter](https://twitter.com/danilo96061514)
+- [Linkedin](https://www.linkedin.com/in/danilo-zagarcanin-88169b185/)
+- [Email](mailto:danilozagarcanin@gmail.com)
+
 
 ## Contributing
 
